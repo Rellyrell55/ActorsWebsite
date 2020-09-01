@@ -12,12 +12,14 @@
     <Main id = "actors">
         <H1>Actors</H1>
             <!-- filled out with js  -->
-        <input value="Actor name">   
-        <input value="Actor age">   
-        <input value="Actor image">   
-        <input value="Breif bio"> 
+        <form action="localhost:3000/actors" >
+            <input for = "name" placeholder="name">
+            <input for = "age" placeholder="age">  
+            <input for = "image" placeholder="image">
+            <input for = "bio" placeholder="bio">
+            <input formmethod="POST" type="submit"> 
+        </form>
 
-        <button onclick="js" style="block-size: 40%;">Add to list</button>
     </Main>
 </body>
 </html>

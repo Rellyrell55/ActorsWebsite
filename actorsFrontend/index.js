@@ -19,3 +19,7 @@ fetch("http://localhost:3000/actors")
         main.appendChild(actorCard)
 
     }))
+
+    // function addActor(name, age, image, bio){
+        
+    // }

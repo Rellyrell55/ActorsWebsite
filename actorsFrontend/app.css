@@ -1,0 +1,23 @@
+body{
+    background-color: rgba(0, 166, 255, 0.461);
+}
+
+
+div{
+    display: flex;
+    flex-flow: column wrap;
+    border-color:blue;
+    border-style: dotted;
+    margin: 20px;
+}
+
+img{
+    width: 200px;
+    height: 150px;
+    margin: auto;
+}
+h1{
+    padding: 10px;
+    margin: auto;
+    
+}
